@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%);
   min-height: 100vh;
   padding: 20px;
   animation: gradientShift 15s ease infinite;
@@ -51,7 +51,7 @@ body {
 }
 
 .header h1 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -98,7 +98,7 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
 }
 
@@ -108,7 +108,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 25px rgba(37, 99, 235, 0.5);
 }
 
 .btn-primary:active {
@@ -175,7 +175,7 @@ body {
 }
 
 .student-table thead {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 
 .student-table tbody tr:hover {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(30, 64, 175, 0.12) 100%);
   transform: scale(1.01);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -300,8 +300,8 @@ body {
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
   transform: translateY(-2px);
 }
 
@@ -442,7 +442,7 @@ body {
 }
 
 .login-header h1 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -470,10 +470,10 @@ body {
 .login-hint {
   margin-top: 25px;
   padding: 15px;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(30, 64, 175, 0.12) 100%);
   border-radius: 12px;
   text-align: center;
-  border: 2px dashed rgba(102, 126, 234, 0.3);
+  border: 2px dashed rgba(37, 99, 235, 0.35);
 }
 
 .login-hint p {
@@ -483,7 +483,7 @@ body {
 }
 
 .login-hint strong {
-  color: #667eea;
+  color: #2563eb;
 }
 
 /* Search Bar Styles */
@@ -506,8 +506,8 @@ body {
 
 .search-bar input:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
   transform: translateY(-2px);
 }
 
@@ -536,10 +536,10 @@ body {
 
 .pagination button {
   padding: 10px 20px;
-  border: 2px solid #667eea;
+  border: 2px solid #2563eb;
   border-radius: 10px;
   background: white;
-  color: #667eea;
+  color: #2563eb;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -547,10 +547,10 @@ body {
 }
 
 .pagination button:hover:not(:disabled) {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
 }
 
 .pagination button:disabled {
@@ -562,12 +562,12 @@ body {
 
 .pagination .page-info {
   padding: 8px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
   border-radius: 10px;
   font-weight: 600;
   font-size: 14px;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
 }
 
 .pagination .page-numbers {
@@ -585,9 +585,9 @@ body {
 }
 
 .pagination .page-number.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #2563eb;
 }
 
 /* Logout Button */
@@ -603,9 +603,6 @@ body {
   box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
 }
 
-.logout-btn::before {
-  content: "🚪 ";
-}
 
 .logout-btn:hover {
   transform: translateY(-2px);
